@@ -19,6 +19,21 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listado"
+        app:layout_constraintVertical_bias="0.0">
+        <!-- AQUI IRIA EL CODIGO PERO NO ME DA TIEMPO -->
+        <!-- LinearLayout  -->
+    </ScrollView>
+
 
     <LinearLayout
         android:id="@+id/cp1"
@@ -88,18 +103,7 @@
 
 </LinearLayout>
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guia11"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.2" />
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guia12"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.8" />
+
 
 
     <ImageView
@@ -136,6 +140,20 @@
     </com.google.android.material.textfield.TextInputLayout>
 
 
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guia11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="328dp" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guia12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
