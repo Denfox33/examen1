@@ -20,6 +20,8 @@ class Activida2: AppCompatActivity() {
     }
 
 
+
+
     fun volverAlMain() {
         // Crear un Intent para volver a MainActivity
         val intent = Intent(this, MainActivity::class.java)
