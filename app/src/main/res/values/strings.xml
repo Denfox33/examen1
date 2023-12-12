@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">examen</string>
+
+    <string-array name="opciones_spinner">
+        <item>Agua</item>
+        <item>Fuego</item>
+        <item>Tierra</item>
+        <item>Hada</item>
+        <item>Acero</item>
+        <item>Lucha</item>
+        <item>Planta</item>
+        <item>Fantasma</item>
+        <item>Roca</item>
+        <item>Tierra</item>
+        <item>Psiquico</item>
+        <item>Hielo</item>
+        <item>Veneno</item>
+
+
+    </string-array>
+
+
+</resources>
